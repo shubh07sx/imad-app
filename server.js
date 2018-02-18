@@ -13,7 +13,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/photo.jpg', function (req, res) {
+app.get('/home/shubh/Desktop/webapp/imad-app/ui/photo.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'photo.jpg'));
 });
 
