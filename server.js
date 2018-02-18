@@ -13,8 +13,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/home/shubh/Desktop/webapp/imad-app/ui/photo.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'photo.jpg'));
+app.get('/home/shubh/Desktop/webapp/imad-app/ui/jj.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jj.jpg'));
 });
 
 
