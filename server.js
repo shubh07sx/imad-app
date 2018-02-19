@@ -16,6 +16,9 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/home/shubh/Desktop/webapp/imad-app/ui/jj.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'jj.jpg'));
 });
+  app.get('/home/shubh/Desktop/webapp/imad-app/ui/wallpaper.jpg', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', '/home/shubh/Desktop/webapp/imad-app/ui/wallpaper.jpg'));
+});
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
