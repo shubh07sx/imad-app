@@ -17,7 +17,7 @@ app.get('/home/shubh/Desktop/webapp/imad-app/ui/jj.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'jj.jpg'));
 });
   app.get('/home/shubh/Desktop/webapp/imad-app/ui/wallpaper.jpg', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', '/home/shubh/Desktop/webapp/imad-app/ui/wallpaper.jpg'));
+    res.sendFile(path.join(__dirname, 'ui', 'wallpaper.jpg'));
 });
 
 
